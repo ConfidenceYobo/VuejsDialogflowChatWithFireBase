@@ -9,13 +9,13 @@ module.exports = {
   app: {
     muted: true, // <- mute microphone by default
     googleIt: false, // <- ask users to google their request, in case of input.unknown action
-    dialogflowUrl: "https://youth-alive.herokuapp.com/chat",
+    dialogflowUrl: "https://noya-we-listen.herokuapp.com/chat",
   },
   locale: {
     strings: {
-      welcomeTitle: "Chat with Us",
+      welcomeTitle: "We Listen",
       author: "Confidence Yobo",
-      queryTitle: "Drop your complain ...",
+      queryTitle: "Type your message here ...",
       voiceTitle: "Go ahead, im listening...",
     },
     settings: {
