@@ -343,30 +343,6 @@
                     </div>
                 </div>
                 <div id="bottom"></div>
-                <div class="row">
-                    <div class="col-md-12 time-date">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="time">
-                                    {{ time }}
-                                    <br />
-                                </p>
-                                <p class="date">{{ date }}</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="copyright">
-                                    Proudly powered by
-                                    <a
-                                        href="https://amangarg.firebaseapp.com"
-                                        target="_blank"
-                                    >{{config.locale.strings.author}}</a>
-                                    <br />
-                                </p>
-                                <p class="copyright-version">version: 1.0</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -383,7 +359,7 @@
                 />
             </div>
             <div class="col-md-2 col-sm-2 col-2 text-center" v-show="query != ''">
-                <div class="send" @click="submit">
+                <div :class="['send', messageSending]" @click="submit">
                     <i class="fas fa-arrow-right"></i>
                 </div>
             </div>
@@ -412,6 +388,13 @@ export default {
             id: 1,
             queryFlag: false
         };
+    },
+    computed: {
+        messageSending: function(){
+            if(!!this.queryFlag){
+                return 'disable_cursor'
+            }
+        }
     },
     methods: {
         submit() {
@@ -519,5 +502,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.disable_cursor {
+    pointer-events: none;
+}
 @import "../Chat.scss";
 </style>

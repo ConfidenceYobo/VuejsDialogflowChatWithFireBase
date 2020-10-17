@@ -6,10 +6,10 @@ const express = require("express"),
     config = require('../config'),
     routes = require('./Routes/Routes'),
     morgan = require('morgan'),
-    path = require('path');
+    path = require('path'),
+    serveStatic = require("serve-static");
 
-// Use morgan to log request in dev mode
-// server.use(morgan('dev'))
+server.use(serveStatic(path.join(__dirname, "dist")));
 
 // Set Server Config
 server.use(bodyParse.urlencoded({
@@ -28,10 +28,6 @@ server.use(function (request, response, next) {
 
     // Pass to next layer of middleware
     next();
-});
-
-server.get('/', function (req, res) {
-    res.send("Hello from express functions!")
 });
 
 // Configure Routes
