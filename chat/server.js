@@ -33,7 +33,8 @@ server.use(function (request, response, next) {
 // Configure Routes
 server.use('/chat', routes);
 
-// Start Server
-server.listen(config.Environment.Port, function () {
-    console.log("Server is up and listening on port " + config.Environment.Port);
-});
+const SERVER_PORT = process.env.PORT || config.Environment.Port;
+  // Start Server
+  server.listen(SERVER_PORT, function() {
+    console.log("Server is up and listening on port " + SERVER_PORT);
+  });
