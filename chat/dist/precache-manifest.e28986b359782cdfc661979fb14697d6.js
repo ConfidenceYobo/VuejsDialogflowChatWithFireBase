@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f63b17ef40be41539f44",
-    "url": "/css/app.5b22caa6.css"
+    "revision": "cc3ea6cc374d6d66e79a",
+    "url": "/css/app.d433799b.css"
   },
   {
-    "revision": "944917e203eed54f8fa57c9db84c5418",
-    "url": "/img/chatBackground.944917e2.svg"
+    "revision": "35c2b12baed9154a19c10411089b207d",
+    "url": "/img/chatBackground.35c2b12b.svg"
   },
   {
     "revision": "4417ae3fb51ec4816340f9029934ed7c",
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/typing.430e0fb8.svg"
   },
   {
-    "revision": "9304a1ec2192787776a3f6c2b6d9ec6d",
+    "revision": "12ff5aecb8e29c2016612e53365190bb",
     "url": "/index.html"
   },
   {
-    "revision": "f63b17ef40be41539f44",
-    "url": "/js/app.5b6af898.js"
+    "revision": "cc3ea6cc374d6d66e79a",
+    "url": "/js/app.bea32b88.js"
   },
   {
     "revision": "9488c73ab2ec08cee53f",
