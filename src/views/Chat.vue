@@ -335,7 +335,6 @@
             </div>
         </div>
 
-        <div style="height: 10px;"></div>
         <div class="row">
             <div class="col-md-10 col-sm-10 col-10 search">
                 <input

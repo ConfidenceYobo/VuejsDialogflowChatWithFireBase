@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="d-flex justify-content-between heading">
-      <img src="../assets/logo.svg" />
+      <img src="../assets/logo.svg" height="40"/>
       <img src="../assets/navbar-icon.svg" />
     </div>
   </div>
