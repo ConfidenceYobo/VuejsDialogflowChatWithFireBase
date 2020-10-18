@@ -1,7 +1,7 @@
 <template>
 	<div id="app" class="container-fluid">
-		<div class="row justify-content-center main">
-			<div class="col-md-8 no-padding">
+		<div class="main">
+			<div class="">
 				<div
 					class="bg"
 					:style="{'background-image': 'url(' + require('./assets/chatBackground.svg') + ')'}"

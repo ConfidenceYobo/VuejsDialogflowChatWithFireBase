@@ -13,7 +13,7 @@ module.exports = {
   },
   locale: {
     strings: {
-      welcomeTitle: "We Listen",
+      welcomeTitle: "WE-LISTEN",
       author: "Confidence Yobo",
       queryTitle: "Type your message here ...",
       voiceTitle: "Go ahead, im listening...",

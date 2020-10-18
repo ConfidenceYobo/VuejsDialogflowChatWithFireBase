@@ -2,9 +2,6 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 chat-window scrollbar scrollbar-chat">
-                <div class="row">
-                    <div class="col-md-12 welcome pb-3">{{greeting}}</div>
-                </div>
                 <div class="row pt-2" v-for="(a,index) in chat" :id="'top'+(a.nid)" :key="index">
                     <div class="col-md-12">
                         <!-- Display written query -->
@@ -324,14 +321,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="col-md-3">
-                                <div class="d-flex justify-content-start" style="height:100%">
-                                    <div class="like-dislike">
-                                        <i class="fas fa-thumbs-up like"></i>
-                                        <i class="fas fa-thumbs-down dislike"></i>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                         <div class="row" v-else>
                             <div class="col md-8 text-left">
@@ -346,6 +335,7 @@
             </div>
         </div>
 
+        <div style="height: 10px;"></div>
         <div class="row">
             <div class="col-md-10 col-sm-10 col-10 search">
                 <input
@@ -360,7 +350,7 @@
             </div>
             <div class="col-md-2 col-sm-2 col-2 text-center" v-show="query != ''">
                 <div :class="['send', messageSending]" @click="submit">
-                    <i class="fas fa-arrow-right"></i>
+                    <i class="fab fa-telegram-plane"></i>
                 </div>
             </div>
         </div>

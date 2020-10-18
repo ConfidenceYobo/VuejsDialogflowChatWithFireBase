@@ -1,14 +1,12 @@
-$color-right: #42a5f5;
-$color-left: #0bceaf;
+$color-right: #CCCCCC;
+$color-left: #8EC97D;
 $light: #9ed1fa;
 * {
     -webkit-tap-highlight-color: transparent;
 }
 .chat-window {
     overflow: auto;
-    height: calc(100vh - 115px);
-    // border: 1px solid;
-    // border-color: #cccccc;
+    height: calc(100vh - 105px);
     padding: 10px 15px;
     color: #505050;
 }
@@ -111,15 +109,15 @@ $light: #9ed1fa;
     color: #ff2323;
 }
 .search {
-    padding: 10px 20px;
+    padding: 0px 20px;
     width: 100%;
     background-color: white;
     input {
         width: 100%;
         border-style: none !important;
         outline: none !important;
-        font-size: 20px;
-        padding: 5px 0px;
+        font-size: 16px;
+        padding: 10px 0px;
     }
     input:disabled {
         background-color: white;
@@ -129,9 +127,8 @@ $light: #9ed1fa;
     width: 100%;
     margin: 5px;
     font-size: 34px;
-    color: white;
+    color: #8EC97D;
     border-radius: 25px;
-    background-color: $color-right;
     cursor: pointer;
 }
 .time-date {

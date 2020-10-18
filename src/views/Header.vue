@@ -1,30 +1,32 @@
 <template>
-	<div class="container">
-		<div class="row text-center">
-			<div class="col-md-12 heading">{{welcomeTitle}}</div>
-		</div>
-	</div>
+  <div>
+    <div class="d-flex justify-content-between heading">
+      <img src="../assets/logo.svg" />
+      <img src="../assets/navbar-icon.svg" />
+    </div>
+  </div>
 </template>
 
 <script>
 import config from "../../config";
 export default {
-	data() {
-		return {
-			welcomeTitle: config.locale.strings.welcomeTitle
-		};
-	}
+  data() {
+    return {
+      welcomeTitle: config.locale.strings.welcomeTitle,
+    };
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-$color: #42a5f5;
+$color: #ffffff;
 .heading {
-	font-size: 30px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	padding: 5px 15px;
-	color: white;
-	background-color: $color;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  color: #299a03;
+  background-color: transparent;
+  border-bottom: solid 1px #C3C3C3;
 }
 </style>
