@@ -335,12 +335,12 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="padding: 0 10px">
             <div class="col-md-10 col-sm-10 col-10 search">
                 <input
                     type="text"
                     :placeholder="config.locale.strings.queryTitle"
-                    v-model="query"
+                    v-model="query" 
                     @keyup.enter="submit"
                     :disabled="!!queryFlag"
                     id="queryinput"
