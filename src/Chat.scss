@@ -6,7 +6,7 @@ $light: #9ed1fa;
 }
 .chat-window {
     overflow: auto;
-    height: calc(100vh - 155px);
+    height: calc(100vh - 160px);
     padding: 10px 15px;
     color: #505050;
 }
@@ -120,7 +120,7 @@ $light: #9ed1fa;
         height: 100%;
         border-style: none !important;
         outline: none !important;
-        font-size: 14px;
+        font-size: 15px;
         padding: 5px 0px;
     }
     input:disabled {
