@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f1e10a01ad4763b3856f02a656319400.js"
+  "/precache-manifest.daa9154d23b20eaf7eb856ff154816df.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-dialogflow-v2-chatbot"});

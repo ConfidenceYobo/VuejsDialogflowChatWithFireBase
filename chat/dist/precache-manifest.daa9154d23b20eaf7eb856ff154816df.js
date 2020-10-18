@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chatBackground.svg"
   },
   {
-    "revision": "8c4016ca12335c7ebf56",
-    "url": "/css/app.b328a19c.css"
+    "revision": "cc3deab56d375f1192d3",
+    "url": "/css/app.ab8bcfbd.css"
   },
   {
     "revision": "e6cb603fde9b12b9e9e48aaf57c66206",
@@ -24,11 +24,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/typing.430e0fb8.svg"
   },
   {
-    "revision": "9e1db49caf8cf079340ed932336ae346",
+    "revision": "a5876433fcd83b3f3da75a409f520054",
     "url": "/index.html"
   },
   {
-    "revision": "8c4016ca12335c7ebf56",
+    "revision": "cc3deab56d375f1192d3",
     "url": "/js/app.3702ca29.js"
   },
   {
