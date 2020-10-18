@@ -1,14 +1,13 @@
 <template>
 	<div id="app" class="container-fluid">
 		<div class="main">
-			<div class="">
-				<div
+			<div
 					class="bg"
 					:style="{'background-image': 'url(' + require('./assets/chatBackground.svg') + ')'}"
 				></div>
 				<app-header></app-header>
 				<app-chat></app-chat>
-			</div>
+				<div style="height:50px;"></div>
 		</div>
 	</div>
 </template>
@@ -29,6 +28,9 @@ export default {
 	position: relative;
 	z-index: 1;
 	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	padding: 0 !important;
+	margin: 0 !important;
+	min-height: 100px;
 }
 .main .bg {
 	position: absolute;
@@ -39,7 +41,7 @@ export default {
 	right: 0;
 	opacity: 0.1;
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
 }
 .no-padding {
 	padding: 0px;

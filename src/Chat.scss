@@ -1,5 +1,5 @@
-$color-right: #fff;
-$color-left: #8EC97D;
+$color-right: #eee;
+$color-left: #269900;
 $light: #9ed1fa;
 * {
     -webkit-tap-highlight-color: transparent;
@@ -188,7 +188,7 @@ $light: #9ed1fa;
 }
 
 .scrollbar-chat::-webkit-scrollbar {
-    width: 12px;
+    width: 0px;
     background-color: #f5f5f5;
 }
 
