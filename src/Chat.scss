@@ -1,4 +1,4 @@
-$color-right: #CCCCCC;
+$color-right: #fff;
 $color-left: #8EC97D;
 $light: #9ed1fa;
 * {
@@ -6,7 +6,7 @@ $light: #9ed1fa;
 }
 .chat-window {
     overflow: auto;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 145px);
     padding: 10px 15px;
     color: #505050;
 }
@@ -20,7 +20,7 @@ $light: #9ed1fa;
 }
 .question {
     background: $color-right;
-    color: #fff !important;
+    color: #000 !important;
     border-radius: 20px 20px 3px 20px;
     display: block;
     padding: 7px 13px;
